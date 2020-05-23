@@ -5,4 +5,4 @@ let intToFloat x = float x // "float" fn. converts ints to floats
 let intToBool x = (x = 2)  // true if x equals 2
 let stringToString x = x + " world"
 
-let stringLength x = x.Length
+let stringLength (x:string) :int = x.Length
